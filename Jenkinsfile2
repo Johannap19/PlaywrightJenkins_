@@ -34,7 +34,7 @@ pipeline{
                 //creer une commande pour suprimer le repo
                 sh "rm -rf repo2"
                 //recupération du projet(clone)
-                sh "git clone https://github.com/eloundou843-commits/Playwrightjenkins.git repo2"
+                sh "git clone https://github.com/Johannap19/PlaywrightJenkins_.git repo2"
             }
         }
         // stage("clone du projet"){
