@@ -14,9 +14,9 @@ pipeline{
     // parameters{ choice =("navigateur", choice=["chromium", "webkit", "firefox"]) 
     //         defaultvalure
     // }
-    parameters{
-        choice(name:'tags', choices:['smoke', 'valide', ],description:'navigateur choisi')
-    }
+    // parameters{
+    //     choice(name:'tags', choices:['smoke', 'valide', ],description:'navigateur choisi')
+    // }
 
     stages{
 
